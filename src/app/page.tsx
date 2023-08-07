@@ -13,8 +13,7 @@ async function toggleAvailability(id: string, avaliable: boolean) {
   await prisma.users.update({ where: { id }, data: { avaliable } });
 }
 export default async function Home() {
-  const users = ["user", "user", "user"];
-  //await getUsers();
+  const users = await getUsers();
 
   return (
     <>
