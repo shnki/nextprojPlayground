@@ -19,21 +19,21 @@ const Navbar = () => {
                   className="group text-gray-300 transition duration-300 px-3 py-2 rounded-md text-lg font-medium"
                 >
                   About
-                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-amber-600"></span>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-amber-600"></span>
                 </Link>
                 <Link
                   href="/products"
                   className="group text-gray-300 transition duration-300 px-3 py-2 rounded-md text-lg font-medium"
                 >
                   Products
-                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-amber-600"></span>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-amber-600"></span>
                 </Link>
                 <Link
                   href="/contact"
                   className="group text-gray-300 transition duration-300 px-3 py-2 rounded-md text-lg font-medium"
                 >
                   Contact
-                  <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-amber-600"></span>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-amber-600"></span>
                 </Link>
               </div>
             </div>
