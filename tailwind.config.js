@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         darkBg: "#000000", // Customize the dark background color here
+        navColor: "#312782",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
