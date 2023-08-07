@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-white font-bold text-xl">
-              Logo
+              <Image src="/hunter.svg" alt="My SVG" width={200} height={200} />
             </Link>
           </div>
           <div className="hidden md:block">
