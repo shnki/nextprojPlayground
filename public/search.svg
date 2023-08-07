@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><!--
- // 16pxls (c) by Paul mackenzie <paul@whatspauldoing.com>
- //
- // 16pxls is licensed under a
- // Creative Commons Attribution-ShareAlike 4.0 International License.
- //
- // You should have received a copy of the license along with this
- // work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
--->
-
-<svg fill="#000000" width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-    <path d="M12.027 9.92L16 13.95 14 16l-4.075-3.976A6.465 6.465 0 0 1 6.5 13C2.91 13 0 10.083 0 6.5 0 2.91 2.917 0 6.5 0 10.09 0 13 2.917 13 6.5a6.463 6.463 0 0 1-.973 3.42zM1.997 6.452c0 2.48 2.014 4.5 4.5 4.5 2.48 0 4.5-2.015 4.5-4.5 0-2.48-2.015-4.5-4.5-4.5-2.48 0-4.5 2.014-4.5 4.5z" fill-rule="evenodd"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#EB6727;}
+</style>
+<path class="st0" d="M601.4,496L800,697.5L700,800L496.2,601.2c-51.4,32-110.7,48.9-171.2,48.8C145.5,650,0,504.2,0,325
+	C0,145.5,145.9,0,325,0c179.5,0,325,145.9,325,325C650.1,385.4,633.2,444.7,601.4,496z M99.8,322.6c0,124,100.7,225,225,225
+	c124,0,225-100.8,225-225c0-124-100.8-225-225-225C200.8,97.6,99.8,198.3,99.8,322.6L99.8,322.6z"/>
 </svg>

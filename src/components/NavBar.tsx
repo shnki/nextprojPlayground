@@ -39,13 +39,13 @@ const Navbar = () => {
             </div>
           </div>
           <div className="ml-10 flex items-baseline space-x-10">
-            <Link href="/">
+            <Link href="/" className="p-2 hover:bg-indigo-800 hover:rounded-lg">
               <Image src="/cart.svg" alt="cart icon" width={25} height={30} />
             </Link>
-            <Link href="/">
+            <Link href="/" className="p-2 hover:bg-indigo-800 hover:rounded-lg">
               <Image src="/user.svg" alt="cart icon" width={25} height={30} />
             </Link>
-            <Link href="/">
+            <Link href="/" className="p-2 hover:bg-indigo-800 hover:rounded-lg">
               <Image
                 src="/language.svg"
                 alt="cart icon"
@@ -54,7 +54,7 @@ const Navbar = () => {
               />
             </Link>
 
-            <Link href="/">
+            <Link href="/" className="p-2 hover:bg-indigo-800 hover:rounded-lg">
               <Image src="/search.svg" alt="cart icon" width={25} height={30} />
             </Link>
           </div>

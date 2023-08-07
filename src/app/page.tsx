@@ -18,25 +18,7 @@ export default async function Home() {
   return (
     <>
       <Navbar />
-      <header className="flex justify-between items-center mb-4">
-        <h1 className="text-2xl">Users</h1>
-        <Link
-          className="border border-slate-300 text-slate-300 px-2 py-1 rounded hover:bg-sky-700"
-          href="/new"
-        >
-          Add New User
-        </Link>
-      </header>
-      <ul>
-        {users.map((user) => (
-          <Userslist
-            key={user.id}
-            {...user}
-            toggleAvailability={toggleAvailability}
-          />
-        ))}
-      </ul>
-      <GlassyLayout />
+      <header className="flex justify-between items-center mb-4"></header>
     </>
   );
 }
