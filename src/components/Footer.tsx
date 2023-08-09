@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer
-      className="bg-no-repeat bg-cover h-64 py-4 fixed bottom-0 w-full "
+      className="bg-no-repeat bg-cover h-64 py-4  bottom-0 w-full "
       style={{
         backgroundImage: `url('/Footer.svg')`,
       }}

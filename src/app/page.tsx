@@ -3,6 +3,7 @@ import { prisma } from "@/db";
 import { Userslist } from "@/components/Userslist";
 import Navbar from "@/components/NavBar";
 import GlassyLayout from "@/components/GlassyLayout";
+import Carousel from "@/components/Carousel";
 
 function getUsers() {
   return prisma.users.findMany();
@@ -20,7 +21,7 @@ export default async function Home() {
       <Navbar />
       <header className="flex justify-between items-center mb-4"></header>
       <div>
-        <h1></h1>
+        <Carousel />
       </div>
     </>
   );
