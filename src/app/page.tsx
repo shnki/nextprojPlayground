@@ -19,6 +19,9 @@ export default async function Home() {
     <>
       <Navbar />
       <header className="flex justify-between items-center mb-4"></header>
+      <div>
+        <h1></h1>
+      </div>
     </>
   );
 }
