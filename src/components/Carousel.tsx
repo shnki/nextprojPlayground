@@ -30,7 +30,7 @@ export default function Carousel() {
         style={{
           backgroundImage: `url(${slides[slide].url})`,
         }}
-        className="w-full h-full rounded-2xl bg-center bg-cover"
+        className="w-full h-full rounded-2xl bg-center bg-cover flex transition-transform ease-out duration-500"
       ></div>
       {/* left arrow */}
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/2 text-white cursor-pointer  ">

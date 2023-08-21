@@ -2,7 +2,6 @@ import Navbar from "@/components/NavBar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Image from "next/image";
-import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -20,37 +19,6 @@ export default function RootLayout({
       <body className="bg-gradient-to-r from-cyan-500 to-blue-500 text-slate-100 ">
         {children}
       </body>
-      {/* <footer className="bg-gray-800 py-4 fixed bottom-0 w-full">
-        <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-          <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 ">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 ">
-              Licensing
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:underline">
-              Contact
-            </a>
-          </li>
-        </ul>
-        <Image
-          src="/footer.svg"
-          alt="footer"
-          fill={true}
-          style={{ objectFit: "cover" }}
-        />
-      </footer> */}
-      <Footer />
     </html>
   );
 }

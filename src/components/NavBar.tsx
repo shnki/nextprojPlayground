@@ -9,7 +9,13 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="flex items-center">
               <Link href="/" className="text-white font-bold text-xl">
-                <Image src="/logo.svg" alt="My SVG" width={200} height={200} />
+                <Image
+                  className="min-w-[50%]"
+                  src="/logo.svg"
+                  alt="My SVG"
+                  width={200}
+                  height={200}
+                />
               </Link>
             </div>
             <div className="hidden md:block">
