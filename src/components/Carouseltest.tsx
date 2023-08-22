@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "react-feather";
 import React, { ReactNode } from "react";
 
 interface CarouseltestProps {
-  children: ReactNode;
+  children?: ReactNode;
   autoSlide?: boolean;
   autoSlideInterval?: number;
 }

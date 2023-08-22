@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 interface CategoriesProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 export default function Categories({ children: items }: CategoriesProps) {
   return (
