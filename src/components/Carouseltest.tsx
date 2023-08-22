@@ -16,9 +16,9 @@ export default function Carouseltest({
 }: CarouseltestProps) {
   const [slide, setSlide] = useState(0);
   const previousSlide = () =>
-    setSlide((slide) => (slide === 0 ? slides.length - 1 : slide - 1));
+    setSlide((slide) => (slide === 0 ? slides?.length - 1 : slide - 1));
   const nextSlide = () =>
-    setSlide((slide) => (slide === slides.length - 1 ? 0 : slide + 1));
+    setSlide((slide) => (slide === slides?.length - 1 ? 0 : slide + 1));
 
   useEffect(() => {
     if (!autoSlide) return;
