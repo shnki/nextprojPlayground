@@ -1,12 +1,19 @@
 "use client";
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
+import React, { ReactNode } from "react";
+
+interface CarouseltestProps {
+  children: ReactNode;
+  autoSlide?: boolean;
+  autoSlideInterval?: number;
+}
 
 export default function Carouseltest({
   children: slides,
   autoSlide = false,
   autoSlideInterval = 300,
-}) {
+}: CarouseltestProps) {
   const [slide, setSlide] = useState(0);
   const previousSlide = () =>
     setSlide((slide) => (slide === 0 ? slides.length - 1 : slide - 1));
