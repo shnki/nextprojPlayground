@@ -15,13 +15,15 @@ export default function Carouseltest({
   autoSlideInterval = 300,
 }: CarouseltestProps) {
   const [slide, setSlide] = useState(0);
+  const numSlides = React.Children.count(slides);
+
   const previousSlide = () =>
     setSlide((slide) =>
-      slide === 0 ? (slides ? slides.length - 1 : 0) : slide - 1
+      slide === 0 ? (slides ? numSlides - 1 : 0) : slide - 1
     );
   const nextSlide = () =>
     setSlide((slide) =>
-      slides ? (slide === slides.length - 1 ? 0 : slide + 1) : 0
+      slides ? (slide === numSlides - 1 ? 0 : slide + 1) : 0
     );
 
   useEffect(() => {
