@@ -54,7 +54,7 @@ export default function Carouseltest({
       </div>
       <div className="absolute bottom-2 right-0 left-0 ">
         <div className="flex justify-center items-center gap-5">
-          {slides.map((_, i) => (
+          {React.Children.map(slides, (_, i) => (
             <div
               key={i}
               onClick={() => setSlide(i)}
