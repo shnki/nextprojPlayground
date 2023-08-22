@@ -16,15 +16,23 @@ export default function Carouseltest({
 }: CarouseltestProps) {
   const [slide, setSlide] = useState(0);
   const previousSlide = () =>
-    setSlide((slide) => (slide === 0 ? slides.length - 1 : slide - 1));
+    setSlide((slide) =>
+      slide === 0 ? (slides ? slides.length - 1 : 0) : slide - 1
+    );
   const nextSlide = () =>
-    setSlide((slide) => (slide === slides.length - 1 ? 0 : slide + 1));
+    setSlide((slide) =>
+      slides ? (slide === slides.length - 1 ? 0 : slide + 1) : 0
+    );
 
   useEffect(() => {
     if (!autoSlide) return;
     const slideInterval = setInterval(nextSlide, autoSlideInterval);
     return () => clearInterval(slideInterval);
   }, []);
+
+  if (!slides) {
+    return null;
+  }
 
   return (
     <div className="overflow-hidden relative">
